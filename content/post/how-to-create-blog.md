@@ -20,9 +20,17 @@ title = "how to create blog"
   Well, you need to connect your subfolder inside **public** folder (You might remove the folder **public** if any) to the default github page website.
 
 ```
-[ryoeng@rstudio-scibrokes ryoeng]$ grm -rf public
-[ryoeng@rstudio-scibrokes ryoeng]$ git submodule add https://github.com/englianhu/englianhu.github.io.git public
+$ rm -rf public
+$ git submodule add https://github.com/englianhu/englianhu.github.io.git public
 ```
+
+$ hugo
+$ cd public
+$ git add -A && git commit -m "first post"
+$ git push origin master
+$ cd ..
+$ git add -A && git commit -m "init hugo coder"
+$ git push origin master
 
 
   * [使用hugo搭建个人博客站点](http://blog.coderzh.com/2015/08/29/hugo/)
