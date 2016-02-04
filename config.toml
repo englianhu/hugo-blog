@@ -1,3 +1,15 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://englianhu.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "®γσ, Eng Lian Hu"
+paginate = 8
+theme = "air"
+[params]
+    description = "白戸則道：悟空がやらなきゃ誰がやる！"
+    email = "englianhu@gmail.com"
+    hostname = "englianhu.github.io"
+[permalinks]
+    post = "/:year/:title/"
+    addendum = "/addendum/:year/:title/"
+    
+    
+    
