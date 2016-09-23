@@ -97,6 +97,13 @@ theme = "air"
 > C:\Users\scibr\Documents\GitHub\englianhu\hugo-blog>git submodule add https://github.com/englianhu/englianhu.github.io.git public
 ```
 
+  It is simlar with below codes which is post all files under folder `public` to github repo `https://github.com/englianhu/englianhu.github.io.git`.
+
+```
+> C:\Users\scibr\Documents\GitHub\englianhu\hugo-blog>cd public
+> C:\Users\scibr\Documents\GitHub\englianhu\hugo-blog\public>git submodule add https://github.com/englianhu/englianhu.github.io.git
+```
+
 <s>
 ```
 > C:\Users\scibr\Documents\GitHub\englianhu\hugo\themes>hugo server --theme=hugo-theme-air --buildDrafts --watch
@@ -112,13 +119,13 @@ theme = "air"
   When you modified your post content and decide to post on your blog. Now you just run below codes and a folder `public` will be created.
 
 ```
-> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io>hugo
-> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io>cd public
-> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io>git add -A && git commit -m "first post"
-> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io>git push origin master
-> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io>cd ..
-> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io>git add -A && git commit -m "init hugo coder"
-> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io>git push origin master
+> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io\hugo-blog>hugo
+> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io\hugo-blog>cd public
+> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io\hugo-blog>git add -A && git commit -m "first post"
+> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io\hugo-blog>git push origin master
+> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io\hugo-blog>cd ..
+> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io\hugo-blog>git add -A && git commit -m "init hugo coder"
+> C:\Users\scibr\Documents\GitHub\englianhu\englianhu.github.io\hugo-blog>git push origin master
 ```
 
   The files will upload to github repo and your blog and 1st post has been successful. Please be mind that [**Hugo**](https://gohugo.io) blogs only publish the index file as html web page inside folder `Public`. **Therefore the index.html right inside the folder `Public` will be the home page of the blog.**
