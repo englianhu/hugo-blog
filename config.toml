@@ -4,25 +4,26 @@ title = "®γσ, Eng Lian Hu"
 paginate = 8
 theme = "air"
 [params]
-    description = "白戸則道：悟空がやらなきゃ誰がやる！"
+    description = "実に面白いですね！"
     email = "englianhu@gmail.com"
     hostname = "englianhu.github.io"
     cover = "images/cover.jpg"
-    author = "syui"
+    author = "Eng Lian Hu"
     authorlocation = "Japan"
-    authorwebsite = "https://syui.github.io"
+    authorwebsite = "https://englianhu.github.io"
     bio= "my bio"
     logo = "images/phoenix_world.png"
     googleAnalyticsUserID = "UA-64985747-4"
     # Optional RSS-Link, if not provided it defaults to the standard index.xml
     RSSLink = "http://feedly.com/i/subscription/feed/https://syui.github.io/atom.xml"
-    githubName = "syui"
-    twitterName = "syui__"
+    githubName = "englianhu"
+    twitterName = "englianhu__"
     # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
 [permalinks]
     post = "/:year/:title/"
     addendum = "/addendum/:year/:title/"
-    
-    
+[social]
+    github  = "https://github.com/englianhu"
+    twitter = "https://twitter.com/englianhu"
     
